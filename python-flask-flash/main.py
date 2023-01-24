@@ -7,7 +7,8 @@ app.secret_key = "secret key"
 def app_session():
 	#flash('This is a flash message')
 	#flash('This is a flash error message', 'error')
-	#flash('This is a flash success message', 'success')
+	#flash('This is a flash success message', 'success')\	#flash('This is a flash success message', 'success')
+
 	
 	return render_template('template.html')
 
