@@ -22,6 +22,13 @@ def write_file(data, fname, compress=True):
         f.write(data)
     finally:
         f.close()
+        
+        
+                f = open(fname, 'wb')
+    try:
+        f.write(data)
+    finally:
+        f.close()
 
 data = read_file('hey.txt')
 print(data)
